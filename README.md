@@ -1,5 +1,7 @@
 # RLC Studio
 
+[![Live demo](https://img.shields.io/badge/Live%20demo-GitHub%20Pages-2ea44f?logo=github&logoColor=white)](https://marcvandamme.github.io/rlc-studio/)
+
 A browser-based workbench for series and parallel RLC circuits. RLC Studio turns component values into a complete AC solution, walks through the calculation in five steps, and presents the result as numbers, LaTeX formulas, a phasor diagram, and an interactive frequency-response chart.
 
 ![RLC Studio calculator in light theme](docs/screenshots/calculator-light.png)
@@ -138,7 +140,9 @@ The domain layer is framework-independent and covered by unit tests. UI componen
 
 ## Deployment
 
-The Vite config uses a relative base, so the built `dist/` directory can be hosted on GitHub Pages, Netlify, Vercel, Cloudflare Pages, or any static web server.
+The live demo is served from GitHub Pages: **https://marcvandamme.github.io/rlc-studio/**
+
+The `Deploy to GitHub Pages` workflow builds the project and publishes `dist/` on every push to `main`. The Vite config uses a relative base, so the same build can also be hosted on Netlify, Vercel, Cloudflare Pages, or any static web server.
 
 ## Contributing
 
